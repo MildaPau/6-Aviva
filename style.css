@@ -1,0 +1,136 @@
+/* 
+auksine -> #DDB602 
+raudona -> #E60001
+melyna -> #00184C
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1100px;
+    margin: 50px auto;
+}
+.padding{
+    padding: 0 150px;
+}
+/* header */
+header{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 0 50px;
+}
+img{
+    width: 150px;
+    margin: 30px;
+}
+h2{
+    color: white;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+nav{
+    background-color: #DDB602;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0 10px;
+    color: white;
+}
+nav a:hover{
+    color: black;
+    font-size: 17px;
+}
+
+/* <!-- section1 -> about --> */
+
+section{
+    text-align: center;
+}
+h3{
+    padding: 20px 0;
+    text-align: left;
+}
+p{
+    text-align: justify;
+}
+button{
+    margin-top: 15px;
+    width: 130px;
+    height: 30px;
+    background: #E60001;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #00184C;
+}
+.about a{
+    color: white;
+}
+
+
+/* <!-- section2 -> lentele--> */
+
+.table{
+    background-color: #00184C;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid #E60001;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+}
+th, td{
+    border: 2px solid #E60001;
+}
+td{
+    line-height: 30px;
+    font-weight: bold;
+}
+
+tr td:nth-of-type(2),
+table td:last-child{
+    text-align: right;
+    padding-right: 20px;
+}
+.table h3{
+    color: white;
+}
+
+/* <!-- section3 -> contacts--> */
+
+ul{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 15px;
+}
+.contacts a{
+    display: inline-block;
+    margin: 15px 0;
+    color: blue;
+}
+
+/* footer */
+
+footer{
+    background-color: #DDB602;
+}
+footer p{
+    color: white;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+}
